@@ -1,27 +1,27 @@
 @font-face {
-    font-family: inter-bold;
+    font-family: 'inter-bold';
     src: url(/fonts/Inter-Bold.ttf);
 }
 @font-face {
-    font-family: inter-regular;
+    font-family: 'inter-regular';
     src: url(/fonts/Inter-Regular.ttf);
 }
 @font-face {
-    font-family: inter-semibold;
+    font-family: 'inter-semibold';
     src: url(/fonts/Inter-SemiBold.ttf);
 }
 body{
     background-color: hsl(0, 0%, 12%);
     color: hsl(0, 0%, 100%);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: inter-regular ;
 }
 .container{
     background-color: hsl(0, 0%, 8%);
     margin: auto;
     width: 230px;
-    height: 370px;
+    height: 360px;
     padding: 8px;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 #a:hover{
     background-color: hsl(75, 94%, 57%);
@@ -38,6 +38,8 @@ body{
 
 .name{
     text-align: center;
+    margin: 10px auto;
+    font-family: inter-bold;
 }
 .location{
     font-size: 10px;
@@ -46,12 +48,14 @@ body{
     margin: 10px auto;
     display: block;
     line-height: 0.3em;
+    font-family: inter-semibold ;
     font-weight: bold;
 }
 .tagline{
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: normal;
+    font-family: inter-regular;
 }
 
 #a{
@@ -67,5 +71,6 @@ body{
     padding-top: 10px;
     border-radius: 5px;
     font-size: 10px;
+    font-family: inter-bold;
     font-weight: bold;
 }
